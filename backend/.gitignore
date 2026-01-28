@@ -112,9 +112,9 @@ data/
 
 # Ignore Django Migrations in Development if you are working on team
 
-# Only for Development only
-# **/migrations/**
+# Only for Development
 # !**/migrations
+**/migrations/*
 !**/migrations/__init__.py
 
 # SOURCE: https://djangowaves.com/tips-tricks/gitignore-for-a-django-project/
